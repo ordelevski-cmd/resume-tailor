@@ -56,9 +56,15 @@ export default function Home() {
             setDisable(false);
             return;
           }
-          throw new Error(errorJson.error || "Failed to generate PDF");
+          // Display structured error message
+          const errorMessage = errorJson.message || errorJson.error || "Failed to generate PDF";
+          throw new Error(errorMessage);
         } catch (e) {
-          throw new Error(errorText || "Failed to generate PDF");
+          // If not JSON or parsing fails, show a clean error
+          if (errorText.includes("<!DOCTYPE html>")) {
+            throw new Error("Server error occurred. Please check Render logs for details.");
+          }
+          throw new Error(e.message || errorText || "Failed to generate PDF");
         }
       }
 

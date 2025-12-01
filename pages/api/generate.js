@@ -49,6 +49,14 @@ export default async function handler(req, res) {
   if (req.method !== "POST") return res.status(405).send("Method not allowed");
 
   try {
+    // Validate OpenAI API key
+    if (!process.env.OPENAI_API_KEY) {
+      console.error("❌ OPENAI_API_KEY is not set in environment variables");
+      return res.status(500).json({ 
+        error: "OpenAI API key is not configured. Please set OPENAI_API_KEY in your environment variables."
+      });
+    }
+
     const { profile, jd } = req.body;
 
     if (!profile) return res.status(400).send("Profile required");
@@ -560,7 +568,19 @@ Remember: Extract company name and job title, then create the tailored resume fo
     
 
   } catch (err) {
-    console.error("PDF generation error:", err);
-    res.status(500).send("PDF generation failed: " + err.message);
+    console.error("❌ PDF generation error:", err);
+    console.error("Error stack:", err.stack);
+    console.error("Error details:", {
+      message: err.message,
+      name: err.name,
+      code: err.code
+    });
+    
+    // Return JSON error for better debugging
+    return res.status(500).json({
+      error: "PDF generation failed",
+      message: err.message,
+      details: process.env.NODE_ENV === 'production' ? undefined : err.stack
+    });
   }
 }
