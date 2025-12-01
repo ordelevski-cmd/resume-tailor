@@ -1,0 +1,83 @@
+{
+  "name": "Shawn Neacy",
+  "email": "shawn.neacy12@outlook.com",
+  "phone": "+1 (857) 465 6710",
+  "location": "New York, NY",
+  "linkedin": "",
+  "website": "",
+
+  "experience": [
+    {
+      "company": "EquityMultiple",
+      "title": "Lead Full Stack Engineer",
+      "location": "New York, NY",
+      "start_date": "01/2023",
+      "end_date": "Present"
+    },
+    {
+      "company": "EquityMultiple",
+      "title": "Senior Full Stack Engineer",
+      "location": "New York, NY",
+      "start_date": "01/2022",
+      "end_date": "01/2023"
+    },
+    {
+      "company": "Cantina",
+      "title": "Lead Engineer",
+      "location": "Boston, MA",
+      "start_date": "05/2021",
+      "end_date": "12/2021"
+    },
+    {
+      "company": "Cantina",
+      "title": "Senior Engineer",
+      "location": "Boston, MA",
+      "start_date": "12/2017",
+      "end_date": "05/2021"
+    },
+    {
+      "company": "Cantina",
+      "title": "Engineer",
+      "location": "Boston, MA",
+      "start_date": "05/2014",
+      "end_date": "12/2017"
+    },
+    {
+      "company": "Online Buddies, Inc.",
+      "title": "Software Engineer",
+      "location": "Cambridge, MA",
+      "start_date": "06/2011",
+      "end_date": "05/2014"
+    },
+    {
+      "company": "General Dynamics",
+      "title": "Software Engineer",
+      "location": "Pittsfield, MA",
+      "start_date": "04/2010",
+      "end_date": "06/2011"
+    },
+    {
+      "company": "Bittware, Inc.",
+      "title": "Software Engineering Intern",
+      "location": "Concord, NH",
+      "start_date": "05/2009",
+      "end_date": "12/2009"
+    },
+    {
+      "company": "Skyworks Solutions",
+      "title": "IT Intern",
+      "location": "Woburn, MA",
+      "start_date": "05/2008",
+      "end_date": "08/2008"
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "B.S. in Computer Science",
+      "school": "University of New Hampshire",
+      "start_year": "2005",
+      "end_year": "2009"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: resume-tailor
+    env: node
+    region: oregon
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20.11.0
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: ANTHROPIC_MODEL
+        value: claude-3-5-sonnet-20241022
+      - key: NODE_ENV
+        value: production
+

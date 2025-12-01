@@ -1,0 +1,62 @@
+{
+  "name": "Nathan Magnon",
+  "email": "nathan.magnon12@outlook.com",
+  "phone": "+1 (214) 851 8923",
+  "location": "Midland, TX, USA",
+  "linkedin": "https://www.linkedin.com/in/mooring-blake-00b0b0382/",
+  "website": "",
+  
+  "experience": [
+    {
+      "company": "Healthee",
+      "title": "Senior AI/ML Engineer",
+      "location": "Texas City, United States",
+      "start_date": "02/2024",
+      "end_date": "Present"
+    },
+    {
+      "company": "Bread",
+      "title": "Machine Learning Engineer",
+      "location": "Remote",
+      "start_date": "10/2020",
+      "end_date": "01/2024"
+    },
+    {
+      "company": "Printify",
+      "title": "Data Scientist",
+      "location": "Texas City, United States",
+      "start_date": "07/2018",
+      "end_date": "09/2020"
+    },
+    {
+      "company": "AdMedia",
+      "title": "Data Engineer / ML Engineer",
+      "location": "Chicago, United States",
+      "start_date": "01/2016",
+      "end_date": "06/2018"
+    },
+    {
+      "company": "Verizon Connect",
+      "title": "Junior Data Engineer",
+      "location": "Texas City, United States",
+      "start_date": "09/2015",
+      "end_date": "12/2015"
+    },
+    {
+      "company": "QuickBooks",
+      "title": "Junior Data Scientist",
+      "location": "Texas City, United States",
+      "start_date": "11/2014",
+      "end_date": "08/2015"
+    }
+  ],
+  
+  "education": [
+    {
+      "degree": "Bachelor's Degree of Computer Science",
+      "school": "University of York",
+      "start_year": "2010",
+      "end_year": "2014"
+    }
+  ]
+}

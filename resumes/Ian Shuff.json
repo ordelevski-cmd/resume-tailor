@@ -1,0 +1,81 @@
+{
+  "name": "Ian Shuff",
+  "email": "ian.shuff12@gmail.com",
+  "phone": "+1 2148518923",
+  "location": "New York, United States",
+  "linkedin": "",
+  "website": "",
+
+  "experience": [
+    {
+      "company": "ADP Research",
+      "title": "Research Lead Application Developer",
+      "location": "",
+      "start_date": "09/2024",
+      "end_date": "07/2025"
+    },
+    {
+      "company": "Memo",
+      "title": "Senior Software Engineer",
+      "location": "",
+      "start_date": "08/2021",
+      "end_date": "09/2024"
+    },
+    {
+      "company": "Zipari",
+      "title": "Software Engineer",
+      "location": "",
+      "start_date": "03/2020",
+      "end_date": "03/2021"
+    },
+    {
+      "company": "InRhythm",
+      "title": "Software Engineer",
+      "location": "",
+      "start_date": "03/2016",
+      "end_date": "12/2019"
+    },
+    {
+      "company": "Creospan Inc",
+      "title": "Contract JavaScript/Angular Developer",
+      "location": "",
+      "start_date": "07/2015",
+      "end_date": "02/2016"
+    },
+    {
+      "company": "Freelance Software Engineer",
+      "title": "Freelance Software Engineer",
+      "location": "",
+      "start_date": "06/2017",
+      "end_date": "09/2018"
+    },
+    {
+      "company": "Freelance Motion Designer/Editor",
+      "title": "Freelance Motion Designer/Editor",
+      "location": "",
+      "start_date": "11/2014",
+      "end_date": "01/2017"
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "BS in Film",
+      "school": "Ramapo College",
+      "start_year": "2006",
+      "end_year": "2010"
+    },
+    {
+      "degree": "Computer Science Classes",
+      "school": "Monmouth Academy",
+      "start_year": "",
+      "end_year": ""
+    },
+    {
+      "degree": "Full Stack Web Development, Ruby on Rails",
+      "school": "Dev Bootcamp",
+      "start_year": "2014",
+      "end_year": "2014"
+    }
+  ]
+}

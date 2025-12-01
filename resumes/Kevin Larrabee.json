@@ -1,0 +1,75 @@
+{
+  "name": "Kevin Larrabee",
+  "email": "kevin.larrabee12@outlook.com",
+  "phone": "+1 (857) 465 6710",
+  "location": "Greater Boston",
+  "linkedin": "",
+  "website": "https://github.com/kevlarr",
+
+  "experience": [
+    {
+      "company": "Arcadia",
+      "title": "Senior Software Engineer",
+      "location": "Greater Boston (Remote)",
+      "start_date": "July 2023",
+      "end_date": "July 2025"
+    },
+    {
+      "company": "DEPT®",
+      "title": "Senior Software Engineer",
+      "location": "Greater Boston (Hybrid)",
+      "start_date": "March 2021",
+      "end_date": "July 2023"
+    },
+    {
+      "company": "DEPT®",
+      "title": "Software Engineer",
+      "location": "Greater Boston (Remote)",
+      "start_date": "March 2019",
+      "end_date": "February 2021"
+    },
+    {
+      "company": "Gridium",
+      "title": "Full-Stack Developer",
+      "location": "Remote",
+      "start_date": "January 2017",
+      "end_date": "February 2019"
+    },
+    {
+      "company": "Launch Academy, Inc.",
+      "title": "Jr. Full Stack Developer",
+      "location": "Boston, MA",
+      "start_date": "September 2015",
+      "end_date": "May 2016"
+    },
+    {
+      "company": "myBIMteam",
+      "title": "BIM Technician",
+      "location": "Greater Boston",
+      "start_date": "May 2014",
+      "end_date": "May 2015"
+    },
+    {
+      "company": "Various Clients",
+      "title": "Intern Architect",
+      "location": "Denver, CO",
+      "start_date": "December 2012",
+      "end_date": "May 2014"
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "M.Arch, Architecture",
+      "school": "University of Colorado at Denver",
+      "start_year": "2010",
+      "end_year": "2012"
+    },
+    {
+      "degree": "B.S., Biological Psychology",
+      "school": "Penn State University",
+      "start_year": "2002",
+      "end_year": "2006"
+    }
+  ]
+}
